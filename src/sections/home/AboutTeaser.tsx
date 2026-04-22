@@ -19,8 +19,8 @@ export const AboutTeaser: React.FC = () => {
           {/* Image */}
           <ScrollReveal direction="left" className="order-2 lg:order-1">
             <div className="relative">
-              <div className="relative h-[460px] md:h-[540px] rounded-[2rem] overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent z-10" />
+              <div className="relative h-[460px] md:h-[540px] rounded-4xl overflow-hidden shadow-2xl">
+                <div className="absolute inset-0 bg-linear-to-t from-primary/10 to-transparent z-10" />
                 <img 
                   src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=800" 
                   alt="Especialista em Pedicure Avançada" 

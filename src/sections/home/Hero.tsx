@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
             <img 
               src="https://t4.ftcdn.net/jpg/01/27/69/49/360_F_127694912_UAgWUz7gDm3I4ev0E29DbHbdSnWknAf8.jpg?auto=format&fit=crop&q=80&w=800" 
               alt="Pedicure clínica avançada profissional" 
-              className="relative z-10 w-[82%] h-[82%] object-cover rounded-[2rem] shadow-2xl border-4 border-white/60 hover:scale-[1.02] transition-transform duration-500"
+              className="relative z-10 w-[82%] h-[82%] object-cover rounded-4xl shadow-2xl border-4 border-white/60 hover:scale-[1.02] transition-transform duration-500"
               onError={(e) => { (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=800'; }}
             />
 

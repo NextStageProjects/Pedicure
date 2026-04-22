@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       
-      <main className="flex-grow">
+      <main className="grow">
         <Hero />
         <TreatmentGrid />
         <AboutTeaser />

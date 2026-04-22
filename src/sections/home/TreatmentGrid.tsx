@@ -49,7 +49,7 @@ export const TreatmentGrid: React.FC = () => {
                   {feat.icon}
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">{feat.title}</h3>
-                <p className="text-secondary text-sm leading-relaxed mb-6 flex-grow">{feat.desc}</p>
+                <p className="text-secondary text-sm leading-relaxed mb-6 grow">{feat.desc}</p>
                 <Link to="/booking" className="inline-flex items-center gap-1.5 text-xs font-bold text-accent uppercase tracking-wider opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 mt-auto">
                   Reservar agora
                   <ArrowRight size={14} />

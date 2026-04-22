@@ -10,7 +10,7 @@ export const Metrics: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-accent via-accent-hover to-[#8B4445] text-white relative overflow-hidden">
+    <section className="py-20 bg-linear-to-br from-accent via-accent-hover to-[#8B4445] text-white relative overflow-hidden">
       {/* Decorative shapes */}
       <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-white/5 -translate-y-1/2 translate-x-1/3" />
       <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-white/5 translate-y-1/2 -translate-x-1/3" />
