@@ -4,7 +4,7 @@ import { Footer } from '../components/layout/Footer';
 import { ScrollReveal } from '../components/common/ScrollReveal';
 import { Button } from '../components/common/Button';
 import { useNavigate } from 'react-router-dom';
-import { ShieldCheck, Award, Heart, Microscope, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Award, Heart, ArrowRight } from 'lucide-react';
 import brushMaskUrl from '../assets/brush-mask.svg';
 
 export const About: React.FC = () => {
