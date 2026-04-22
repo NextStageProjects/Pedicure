@@ -1,0 +1,33 @@
+├── 📁 src
+│   ├── 📁 components
+│   │   ├── 📁 common
+│   │   │   ├── 📄 Button.tsx
+│   │   │   └── 📄 Modal.tsx
+│   │   ├── 📁 layout
+│   │   │   ├── 📄 Footer.tsx
+│   │   │   └── 📄 Navbar.tsx
+│   │   └── 📁 booking
+│   │       ├── 📄 CalendarPicker.tsx
+│   │       ├── 📄 ServiceSelector.tsx
+│   │       └── 📄 TimeSlotGrid.tsx
+│   ├── 📁 config
+│   │   ├── 📄 constants.ts
+│   │   └── 📄 supabase.ts
+│   ├── 📁 hooks
+│   │   └── 📄 useAvailability.ts
+│   ├── 📁 mocks
+│   │   ├── 📄 services.ts
+│   │   └── 📄 schedule.ts
+│   ├── 📁 pages
+│   │   ├── 📁 admin
+│   │   │   ├── 📄 Dashboard.tsx
+│   │   │   └── 📄 ScheduleManager.tsx
+│   │   ├── 📄 Home.tsx
+│   │   ├── 📄 Booking.tsx
+│   │   └── 📄 ServicesGallery.tsx
+│   ├── 📁 types
+│   │   ├── 📄 booking.ts
+│   │   └── 📄 service.ts
+│   ├── 📄 App.tsx
+│   ├── 🎨 index.css
+│   └── 📄 main.tsx
