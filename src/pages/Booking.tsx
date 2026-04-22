@@ -19,7 +19,6 @@ export const Booking: React.FC = () => {
   const selectedService = mockServices.find(s => s.id === selectedServiceId);
 
   // Validadores de transição de estado
-  const canProceedToDate = selectedServiceId !== null;
   const canProceedToTime = selectedDate !== null;
   const canConfirm = selectedTime !== null;
 
@@ -41,7 +40,10 @@ export const Booking: React.FC = () => {
         {/* Indicador de Progresso */}
         <div className="flex items-center justify-between mb-12 relative">
           <div className="absolute left-0 top-1/2 w-full h-0.5 bg-border-light -z-10 transform -translate-y-1/2"></div>
-          <div className={`h-0.5 bg-accent absolute left-0 top-1/2 -z-10 transform -translate-y-1/2 transition-all duration-500`} style={{ width: `${((step - 1) / 2) * 100}%` }}></div>
+          <div 
+            className="h-0.5 bg-accent absolute left-0 top-1/2 -z-10 transform -translate-y-1/2 transition-all duration-500" 
+            style={{ width: `${((step - 1) / 2) * 100}%` }}
+          ></div>
           
           {[1, 2, 3].map((s) => (
             <div key={s} className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm border-4 transition-colors duration-300

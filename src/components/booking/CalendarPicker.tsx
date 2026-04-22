@@ -18,7 +18,6 @@ export const CalendarPicker: React.FC<Props> = ({ selectedDate, onSelectDate }) 
       <div className="flex gap-4 overflow-x-auto pb-4 snap-x scrollbar-hide">
         {availableDays.map((date) => {
           const isSelected = selectedDate ? isSameDay(selectedDate, date) : false;
-          const isWeekend = date.getDay() === 0 || date.getDay() === 6; // Ignorar domingos e sábados (dependendo das tuas regras)
           
           if (date.getDay() === 0) return null; // Salão fechado ao domingo
 
