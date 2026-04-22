@@ -19,7 +19,6 @@ export const Booking: React.FC = () => {
   const selectedService = mockServices.find(s => s.id === selectedServiceId);
 
   // Validadores de transição de estado
-  const canProceedToDate = selectedServiceId !== null;
   const canProceedToTime = selectedDate !== null;
   const canConfirm = selectedTime !== null;
 
